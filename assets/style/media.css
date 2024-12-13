@@ -1,0 +1,136 @@
+@media (max-width:1200px) {
+    
+    .aboute__content {
+        flex-direction: column;
+    }
+    
+    .aboute__content img {
+        max-width: 100%;
+    }
+    
+    .aboute__content-title {
+        margin-top: 25px;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .aboute__content-descr {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:992px) {
+    
+    .aboute__content-title {
+        font-size: 23px;
+    }
+    
+    .aboute__content-descr {
+        font-size: 17px;
+    }
+    
+    .nav__list-link {
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width:768px) {
+    
+    .aboute__content-title {
+        font-size: 18px;
+    }
+    
+    .aboute__content-descr {
+        font-size: 15px;
+    }
+    
+    .nav__list-link {
+        font-size: 20px;
+    }
+    
+    .nav__list-link {
+        font-size: 10px;
+    }
+    .nav__logo {
+        font-size: 32px;
+    }
+    .nav__list {
+        gap: 40px;
+    }
+    .header__content {
+        background-position: center;
+        min-height: 400px;
+    }
+    .header__title {
+        text-align: center;
+        font-size: 23px;
+        width: 70%;
+    }
+    .header__link {
+        font-size: 17px;
+        padding: 9px 18px;
+        margin-top: 80px;
+    }
+    
+    .work__card img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:679px) {
+    .works__content {
+        justify-content: center;
+    }
+    
+    .work__card img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    .nav__content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .nav__list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+    
+    .header__content {
+        min-height: 350px;
+    }
+    
+    .header__title {
+        font-size: 18px;
+        max-width: 70%;
+    }
+    .header__link {
+        font-size: 13px;
+        padding: 9px 18px;
+    }
+    
+    .works__content {
+        justify-content: center;
+    }
+    
+    .work__card img {
+        max-width: 100%;
+    }
+    
+    .footer {
+        padding-top: 20px;
+    }
+    
+    .footer__title {
+        font-size: 21px;
+    }
+    
+    .footer__list {
+        flex-wrap: wrap;
+        margin-top: 13px;
+    }
+}
